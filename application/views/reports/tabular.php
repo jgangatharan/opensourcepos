@@ -46,6 +46,7 @@
 			showExport: true,
 			exportDataType: 'all',
 			exportTypes: ['json', 'xml', 'csv', 'txt', 'sql', 'excel', 'pdf'],
+			exportOptions:{ pagination:function () {return 'false'}},
 			pagination: true,
 			showColumns: true,
 			data: <?php echo json_encode($data); ?>,
